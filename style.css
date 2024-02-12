@@ -47,26 +47,34 @@ header h2 {
    
 }
 
-nav{
+details{
+    font-family: Arial, Helvetica, sans-serif;
+   color: white;
    background-color:#042940;
-   padding: 10px;
+   padding: 20px;
    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.445);
 }
+li {
+    background-color;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+   
+}
 
-nav > a {
+li > a:hover{
     color: white;
     padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition-duration: 0.7s;
-
-}
-
-nav > a:hover {
-    background-color:#2D61A1;
-    color:#10233B;
+    background-color: #2D61A1;
     border-radius: 5px;
+
 
 }
 main {
